@@ -7,4 +7,4 @@ Flutter plugin project to export some cryptography go features to flutter applic
 
 Create plugin:
 - flutter create --template=plugin --platforms=android,ios .
-- 
+- pod lib lint crypto_export.podspec
