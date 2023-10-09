@@ -1,2 +1,9 @@
-# crypto_export
-Example of porting go features to dart
+# ffi_crypto_export
+
+Flutter plugin project to export some cryptography go features to flutter application.
+
+
+## Main commands
+
+Create plugin:
+- flutter create --template=plugin --platforms=android,ios
