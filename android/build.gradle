@@ -1,4 +1,4 @@
-group 'com.example.ffi_crypto_export'
+group 'com.example.crypto_export'
 version '1.0-SNAPSHOT'
 
 buildscript {

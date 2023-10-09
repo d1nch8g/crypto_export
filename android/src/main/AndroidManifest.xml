@@ -1,3 +1,3 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.example.ffi_crypto_export">
+  package="com.example.crypto_export">
 </manifest>

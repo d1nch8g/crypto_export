@@ -1,4 +1,4 @@
-name: ffi_crypto_export
+name: crypto_export
 description: A new flutter plugin project.
 version: 0.0.1
 homepage:
@@ -15,17 +15,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 flutter:
   plugin:
     platforms:
       android:
-        package: com.synctree.ffi_crypto_export
-        pluginClass: HelloPlugin
+        package: com.example.crypto_export
+        pluginClass: CryptoExportPlugin
       ios:
-        pluginClass: HelloPlugin
-      macos:
-        pluginClass: HelloPlugin
-      web:
-        pluginClass: HelloPlugin
-        fileName: hello_web.dart
-   
+        pluginClass: CryptoExportPlugin

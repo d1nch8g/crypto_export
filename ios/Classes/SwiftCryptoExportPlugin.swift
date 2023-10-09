@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftFfiCryptoExportPlugin: NSObject, FlutterPlugin {
+public class SwiftCryptoExportPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "ffi_crypto_export", binaryMessenger: registrar.messenger())
-    let instance = SwiftFfiCryptoExportPlugin()
+    let channel = FlutterMethodChannel(name: "crypto_export", binaryMessenger: registrar.messenger())
+    let instance = SwiftCryptoExportPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

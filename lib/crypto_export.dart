@@ -2,8 +2,7 @@ import 'dart:convert';
 import 'dart:ffi';
 import 'package:ffi/ffi.dart';
 
-final DynamicLibrary dynamicGoLibrary =
-    DynamicLibrary.open('lib.m');
+final DynamicLibrary dynamicGoLibrary = DynamicLibrary.open('lib.m');
 
 typedef Hash = Pointer<Utf8> Function(Pointer<Utf8>);
 typedef HashFunc = Pointer<Utf8> Function(Pointer<Utf8>);

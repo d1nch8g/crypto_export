@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:ffi_crypto_export/ffi_crypto_export.dart';
+import 'package:crypto_export/crypto_export.dart';
 
 void main() {
   var crypt = Crypt();

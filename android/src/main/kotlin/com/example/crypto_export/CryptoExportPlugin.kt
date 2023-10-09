@@ -1,4 +1,4 @@
-package com.example.ffi_crypto_export
+package com.example.crypto_export
 
 import androidx.annotation.NonNull
 
@@ -8,8 +8,8 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 
-/** FfiCryptoExportPlugin */
-class FfiCryptoExportPlugin: FlutterPlugin, MethodCallHandler {
+/** CryptoExportPlugin */
+class CryptoExportPlugin: FlutterPlugin, MethodCallHandler {
   /// The MethodChannel that will the communication between Flutter and native Android
   ///
   /// This local reference serves to register the plugin with the Flutter Engine and unregister it
@@ -17,7 +17,7 @@ class FfiCryptoExportPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var channel : MethodChannel
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "ffi_crypto_export")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "crypto_export")
     channel.setMethodCallHandler(this)
   }
 
