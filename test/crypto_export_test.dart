@@ -7,8 +7,4 @@ void main() {
     var keys = crypt.keys();
     expect(keys.length, 4);
   });
-
-  test('getKeysIos', () {
-    
-  });
 }
